@@ -20,7 +20,7 @@ const Pricing: React.FC = () => {
         handleToggle={toggleTime}
       />
       <main className="p-4">
-        <section className="flex justify-center">
+        <section className="flex flex-wrap justify-center">
           {pricePlans.map((plan, planIndex) => {
             const focused = planIndex === 1;
             return (
